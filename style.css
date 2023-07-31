@@ -1,0 +1,22 @@
+body{
+    font-family: roboto, sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.container div{
+    background: #1F2937;
+    flex: 1 1 0;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
