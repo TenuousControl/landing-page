@@ -4,19 +4,23 @@ body{
 
 .container{
     display: flex;
-}
-
-.container div{
+    color: #F9FAF8;
     background: #1F2937;
-    flex: 1 1 0;
 }
 
 .logo{
+    flex: 2;
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 .link{
     font-size: 18px;
-    color: #E5E7EB;
+}
+
+.signup{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 6px;
 }
