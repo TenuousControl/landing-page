@@ -7,16 +7,32 @@ body{
     display: flex;
     color: #F9FAF8;
     background: #1F2937;
+    padding: 0px 70px 70px 70px
 }
 
 .logo{
-    flex: 2 1 0%;
+    flex: 4 1 0%;
     font-size: 24px;
+    font-weight: bold;
+    margin: 0px 0px 0px 50px;
 }
 
+a{
+    color:#E5E7EB;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #3882f6;
+
+}
 .link{
-    flex: 1 1 0%;
+    flex: 1 0 0%;
     font-size: 18px;
+}
+
+.awesome{
+    flex: 1 0 0%;
+    padding: 0px 50px;
 }
 
 .signup{
@@ -25,7 +41,14 @@ body{
     margin: 4px 2px;
     padding: 4px 20px;
     border-color: #F9FAF8;
-    border-radius: 6px;
+    border-radius: 8px;
+}
+
+.placeholder{
+    flex: 1 0 0%;
+    text-align: center;
+    background: #6c6e7b;
+    padding: 100px;
 }
 
 .info{
@@ -39,11 +62,13 @@ body{
 .imageGroup{
     display: flex;
     align-items: center;
+    margin: 0px 100px 0px 100px;
 }
 
 .imageContainer{
     text-align: center;
     font-weight: lighter;
+    margin: 5px 5px 5px 50px;
 }
 
 .quoteSection{
@@ -57,13 +82,14 @@ body{
     font-weight: lighter;
     color: #1F2937;
     margin: 50px;
+    padding: 0px 100px 0px 100px;
 }
 
 .author{
     font-weight: bold;
     text-align: right;
     margin-top: -50px;
-    margin-right: 50px;
+    padding-right: 150px;
 }
 
 .action{
@@ -72,12 +98,14 @@ body{
     background: #3882f6;
     color: #E5E7EB;
     align-items: center;
-    margin: 50px;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .footer{
     background: #1F2937;
     color:#F9FAF8;
     text-align: center;
-    min-height: 50px;
+    padding: 10px;
 }
